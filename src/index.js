@@ -35,10 +35,12 @@ function FromPerson({sender}) {
 function ToPerson({recipient}) {
   const {name, address, city} = recipient;
   return (
-    <div className="receive">
-      <div>{name}</div>
-      <div>{address}</div>
-      <div>{city}</div>
+    <div className="receive-section">
+      <div className="receive">
+        <div>{name}</div>
+        <div>{address}</div>
+        <div>{city}</div>
+      </div>
     </div>
   )
 }

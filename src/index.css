@@ -15,9 +15,15 @@
     padding: 5px;
 }
 
-.receive {
+.receive-section {
     display: flex;
     flex: 3;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.receive {
+    display: flex;
     flex-direction: column;
     align-self: center;
 }
